@@ -1,0 +1,32 @@
+{
+  "categories": [
+    {
+      "name": "Task Status",
+      "completionPercentage": 1,
+      "completed": 2,
+      "on target": 155,
+      "remaining": ""
+    },
+    {
+      "name": "Document Task Status",
+      "completionPercentage": 3,
+      "completed": 1,
+      "on target": 30,
+      "remaining": ""
+    },
+    {
+      "name": "Account Setup",
+      "completionPercentage": 79,
+      "completed": 18,
+      "on target": "",
+      "remaining": 4
+    },
+    {
+      "name": "Markets Open",
+      "completionPercentage": 100,
+      "completed": 47,
+      "on target": "",
+      "remaining": ""
+    }
+  ]
+}
