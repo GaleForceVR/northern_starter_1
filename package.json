@@ -12,7 +12,8 @@
     "react": "^16.0.0",
     "react-dom": "^16.0.0",
     "react-scripts": "1.0.14",
-    "react-test-renderer": "^16.0.0"
+    "react-test-renderer": "^16.0.0",
+    "victory-pie": "^13.0.1"
   },
   "scripts": {
     "build-css": "node-sass-chokidar src/ -o src/",

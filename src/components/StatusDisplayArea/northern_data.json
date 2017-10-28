@@ -2,15 +2,15 @@
   "categories": [
     {
       "name": "Task Status",
-      "completionPercentage": 1,
-      "completed": 2,
+      "completionPercentage": 12,
+      "completed": 5,
       "onTarget": 155,
       "remaining": "",
       "editable": false
     },
     {
       "name": "Document Task Status",
-      "completionPercentage": 3,
+      "completionPercentage": 5,
       "completed": 1,
       "onTarget": 30,
       "remaining": "",
@@ -18,18 +18,18 @@
     },
     {
       "name": "Account Setup",
-      "completionPercentage": 79,
-      "completed": 18,
+      "completionPercentage": 100,
+      "completed": 53,
       "onTarget": "",
-      "remaining": 4,
+      "remaining": "",
       "editable": true
     },
     {
       "name": "Markets Open",
-      "completionPercentage": 100,
-      "completed": 47,
+      "completionPercentage": 75,
+      "completed": 40,
       "onTarget": "",
-      "remaining": "",
+      "remaining": 10,
       "editable": true
     }
   ]
