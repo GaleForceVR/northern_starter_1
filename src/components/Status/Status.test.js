@@ -17,7 +17,16 @@ it('should render a status header', () => {
  expect(wrapper.find('.status-header').length).toBe(1);
 })
 
-const wrapperWithProps = shallow(<Status header={ northern_data.categories[0].name } completionPercentage="35" />);
+const wrapperWithProps = shallow(
+  <Status 
+    header={ northern_data.categories[0].name } 
+    completionPercentage="35" 
+    completed="2"
+    onTarget="155"
+    remaining="4"
+    editable={ true }
+  />
+);
 
 it('should render the correct status header message', () => {
   
@@ -28,11 +37,21 @@ it('should render the correct status header message', () => {
 
 it('should render the correct status body message', () => {
 
-  const bodyMessage = <div className="status-body" >35</div>;
-
-  console.log(wrapperWithProps.find('.status-body').html())
+  const bodyMessage = <div className="status-body" >35 %<div className="status-editable" ><img src="edit-icon.png" alt="edit"/></div></div>;
 
   expect(wrapperWithProps.find('.status-body').contains(bodyMessage)).toEqual(true);
 })
 
-// it('should render the ')
+it('should render an edit icon if editable is true', () => {
+
+  const editableIcon = <div className="status-editable" ><img src="edit-icon.png" alt="edit"/></div>;
+
+  expect(wrapperWithProps.find('.status-editable').contains(editableIcon)).toEqual(true);
+})
+
+
+
+
+
+
+

@@ -8,7 +8,16 @@ class StatusDisplayArea extends Component {
       <div className="display-container" >
         { northern_data.categories.map( ( statusData, index ) => {
             return (
-              <Status header={ statusData.name } completionPercentage={ statusData.completionPercentage } key={ index } />
+              <Status 
+                header={ statusData.name } 
+                completionPercentage={ statusData.completionPercentage } 
+                completed={ statusData.completed }
+                onTarget={ statusData.onTarget }
+                remaining={ statusData.remaining }
+                editable={ statusData.editable }
+                key={ index }
+                index={ index } 
+              />
             )
           } ) 
         }
