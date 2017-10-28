@@ -1,0 +1,38 @@
+.stat-message {
+  padding: 11px 5%;
+  border-top: 2px solid #e6e6e6;
+  font-size: 14px;
+  letter-spacing: .09em;
+  font-weight: 700;
+}
+
+.data-circle {
+  width: 13px;
+  height: 13px;
+  display: inline-block;
+  margin-right: 4%;
+  border-radius: 50%;
+  position: relative;
+  top: 1px;
+
+  &.data-circle--blue {
+    background-color: #02c5e4;
+  }
+  &.data-circle--green {
+    background-color: #6ac10a;
+  }
+  &.data-circle--gray {
+    background-color: #c5c3c3;
+  }
+}
+
+.data-value {
+  &.data-value--blue {
+    color: #02c5e4;
+  }
+
+  &.data-value--green {
+    color: #6ac10a;
+  }
+
+}

@@ -1,0 +1,68 @@
+.Status {
+  width: 23.875%;
+  float: left;
+  margin-right: 1.5%;
+  background-color: white;
+  color: #c5c3c3;
+  
+  &.remove-margin {
+    margin-right: 0;
+  }
+}
+
+.status-header {
+  width: 90%;
+  background-color: #DCDCDC;
+  color: #757575;
+  margin: 0;
+  padding: 5%;
+  text-align: left;
+  font-weight: normal;
+  letter-spacing: .07em;
+  font-size: 22px;
+}
+
+.status-body {
+  font-size: 55px;
+  font-weight: 100;
+  position: relative;
+  color: #02c5e4;
+}
+
+.status-completed-percentage {
+  position: relative;
+  top: -180px;
+  line-height: 0;
+  padding-bottom: 20px;
+}
+
+.status-complete-label {
+  color: #c5c3c3;
+  font-size: 14px;
+  text-align: center;
+  position: relative;
+  top: -165px;
+  font-weight: bold;
+  letter-spacing: 0.07em;
+}
+
+.status-editable {
+  position: absolute;
+  top: 5%;
+  right: 5%;
+  font-size: 12px;
+
+  img {
+    width: 35px;
+    height: 35px;
+  }
+}
+
+.status-completed, .status-on-target, .status-remaining {
+  text-align: left;
+  span {
+    float: right;
+  }
+}
+
+
